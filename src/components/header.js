@@ -9,10 +9,11 @@ import Contact from "./contact";
 const Header = () => (
   <>
     <nav className="h-24 text-white">
-      <div className="text-center grid grid-cols-2 items-center p-8">
+      <div className="text-center grid grid-cols-3 items-center p-8">
         <Link to="/">
           {/* <img src={logo} alt="logo" className="ml-10 w-28" /> */}
         </Link>
+        <p>Welcome to My Portfolio</p>
         <ul>
           <li className="grid grid-cols-3 mr-8 text-white ">
             <Link to="/">Home</Link>
