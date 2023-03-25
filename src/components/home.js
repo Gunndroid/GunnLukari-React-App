@@ -6,11 +6,11 @@ import Skills from "./skills";
 const Home = () => (
   <main>
     {/* Main Landing Content */}
-    <p className="text-white text-4xl text-center p-16 md:p-20 font-bold">
+    <p className="text-white text-4xl text-center pt-14 p-10 md:p-20 font-bold">
       Who is Gunn Lukari?
     </p>
     <div className="grid md:grid-cols-2">
-      <p className="text-white text-xl w-5/6 mx-auto px-20 text-center md:text-left">
+      <p className="text-white text-xl md:w-5/6 mx-auto px-12 py-6 md:px-20 text-justify md:text-left">
         Gunnar is a skilled programmer from the United States. He discovered a
         passion for programming through his interest in Smart Contracts. With a
         strong desire to understand the intricacies of code, he set out on a
