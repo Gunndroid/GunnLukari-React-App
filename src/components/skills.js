@@ -15,7 +15,7 @@ function Skills() {
       <h3 className="text-white text-2xl font-bold text-center m-8">
         · Skills ·
       </h3>
-      <div className="grid grid-cols-10 gap-4 mx-auto px-14">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-10 md:gap-4 mx-auto px-14">
         <img className="w-16" src={vscodeIcon} alt="Visual Studio code icon" />
         <img className="w-16" src={htmlIcon} alt="html icon" />
         <img className="w-16" src={cssIcon} alt="css icon" />

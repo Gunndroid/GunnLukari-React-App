@@ -4,21 +4,32 @@ import About from "./about";
 import Services from "./services";
 import NotFound from "./notfound";
 import Contact from "./contact";
-// import logo from "";
+import logo from "../media/img/gunndroidLogo3.png";
+import resume from "../media/GunnarCurryResume3.pdf";
 
 const Header = () => (
   <>
-    <nav className="h-24 text-white">
-      <div className="text-center grid grid-cols-3 items-center p-8">
+    <nav className="h-fit text-white">
+      <div className="grid md:grid-cols-2 items-center p-6">
         <Link to="/">
-          {/* <img src={logo} alt="logo" className="ml-10 w-28" /> */}
+          <img
+            className="md:ml-10 md:w-1/4"
+            src={logo}
+            alt="Gunn Lukari Logo"
+          />
         </Link>
-        <p>Welcome to My Portfolio</p>
-        <ul>
-          <li className="grid grid-cols-3 mr-8 text-white ">
+        {/* <p className="font-bold">Welcome to My Portfolio</p> */}
+        <ul className="p-2">
+          <li className="grid grid-cols-4 font-bold mr-8 text-white text-center md:text-right md:pr-4 p-10">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
+
+            <Link to="https://github.com/Gunndroid" target="_blank">
+              GitHub
+            </Link>
+            <Link to={resume} target="_blank">
+              Resume
+            </Link>
           </li>
         </ul>
       </div>

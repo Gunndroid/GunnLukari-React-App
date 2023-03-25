@@ -14,16 +14,7 @@ function ContactBox() {
         />
 
         {/* contact email link */}
-        <div className="text-white text-center grid grid-cols-3 p-4">
-          <div>
-            <a
-              id="contact"
-              className="links"
-              href="mailto:glukari@protonmail.com"
-            >
-              contact
-            </a>
-          </div>
+        {/* <div className="text-white text-center grid grid-cols-2 p-4">
           <div>
             <a
               id="resume"
@@ -45,7 +36,7 @@ function ContactBox() {
               github
             </a>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
