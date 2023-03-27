@@ -11,8 +11,10 @@ import f1 from "../media/img/f1TeamDarkRed.jpg";
 const Projects = () => {
   return (
     <section id="projects-box">
-      <h3 className="text-white text-2xl text-center font-bold m-5">
-        · Projects ·
+      <h3 className="text-white text-3xl text-center font-bold m-5 ">
+        <span className="border-white border-2 px-10 py-2 bg-indigo-700 rounded-lg">
+          Projects
+        </span>
       </h3>
 
       <div className="grid md:grid-cols-3 grid-rows-2 gap-14 text-white text-center text-lg m-14">

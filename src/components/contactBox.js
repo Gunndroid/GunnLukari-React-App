@@ -4,17 +4,15 @@ import resume from "../media/GunnarCurryResume3.pdf";
 
 function ContactBox() {
   return (
-    <section>
-      <div className="">
-        <img
-          className="w-1/2 rounded-lg border-2 border-white mx-auto"
-          id="portrait"
-          src={portrait}
-          alt="This is a portrait of Gunndroid."
-        />
+    <div className="p-5">
+      <img
+        className="w-1/2 rounded-lg border-2 border-white mx-auto"
+        src={portrait}
+        alt="This is a portrait of Gunndroid."
+      />
 
-        {/* contact email link */}
-        {/* <div className="text-white text-center grid grid-cols-2 p-4">
+      {/* contact email link */}
+      {/* <div className="text-white text-center grid grid-cols-2 p-4">
           <div>
             <a
               id="resume"
@@ -37,8 +35,7 @@ function ContactBox() {
             </a>
           </div>
         </div>*/}
-      </div>
-    </section>
+    </div>
   );
 }
 

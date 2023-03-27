@@ -4,9 +4,9 @@ import About from "./about";
 import Services from "./services";
 import NotFound from "./notfound";
 import Contact from "./contact";
-// import logo from "../media/img/gunndroidLogo3.png";
-// import resume from "../media/GunnarCurryResume3.pdf";
-import Resume2 from "./resume";
+import logo from "../media/img/gunndroidLogo3.png";
+import resume from "../media/GunnarCurryResume3.pdf";
+import Resume from "./resume";
 
 const Header = () => (
   <>
@@ -52,7 +52,7 @@ const Header = () => (
         <Route path="/services" element={<Services />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume2 />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   </>

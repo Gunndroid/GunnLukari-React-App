@@ -10,7 +10,7 @@ const Home = () => (
       Who is Gunn Lukari?
     </p>
     <div className="grid md:grid-cols-2">
-      <p className="text-white text-xl md:w-5/6 mx-auto px-12 py-6 md:px-20 text-justify md:text-left">
+      <p className="text-white text-xl md:w-5/6 mx-auto px-12 py-6 md:px-20 text-justify md:text-left order-2 md:order-1">
         Gunnar is a skilled programmer from the United States. He discovered a
         passion for programming through his interest in Smart Contracts. With a
         strong desire to understand the intricacies of code, he set out on a
@@ -30,7 +30,9 @@ const Home = () => (
         <br />
         <br />
       </p>
-      <ContactBox />
+      <div className="order-1 md:order-2">
+        <ContactBox />
+      </div>
     </div>
     <Skills />
     <Projects />
