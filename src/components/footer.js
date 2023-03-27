@@ -2,11 +2,13 @@ import { Link, Route, Routes } from "react-router-dom";
 
 const Footer = () => (
   <>
-    <footer className="text-center h-28 grid items-center font-bold text-white text-md p-10">
+    <footer className="text-center h-fit grid items-center bg-black">
       {/* <Link to="/contact">Contact</Link> */}
 
       {/* <i>"quote"</i> */}
-      <p className="cursor-default">©GunnLukari2023</p>
+      <p className="cursor-default font-bold text-white text-md p-7">
+        ©GunnLukari2023
+      </p>
     </footer>
   </>
 );
