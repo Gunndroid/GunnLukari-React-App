@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <section id="projects-box">
       <h3 className="text-white text-3xl text-center font-bold m-5 ">
-        <span className="border-white border-2 px-10 py-2 bg-indigo-700 rounded-lg">
+        <span className="border-white border-2 px-10 py-2 bg-indigo-700 rounded-sm">
           Projects
         </span>
       </h3>
