@@ -2,11 +2,12 @@ import React from "react";
 
 import commandcenter from "../media/img/commandcenter.png";
 import puffwizz from "../media/img/puffwizz.png";
-import neckBackWordpress from "../media/img/neckBackWordpress.png";
 import whale from "../media/img/whale.png";
 import sleep from "../media/img/sleep.png";
 import random_color from "../media/img/random_color.png";
 import f1 from "../media/img/f1TeamDarkRed.jpg";
+import brwr from "../media/img/brwr.png";
+import mm from "../media/img/mm.png";
 
 const Projects = () => {
   return (
@@ -17,7 +18,7 @@ const Projects = () => {
         </span>
       </h3>
 
-      <div className="grid md:grid-cols-3 grid-rows-2 gap-14 text-white text-center text-lg m-14">
+      <div className="grid md:grid-cols-3 grid-rows-3 gap-14 text-white text-center text-lg m-14">
         <div>
           <p className="font-bold">F1 Cuts</p>
           <a href="https://f1-cuts.vercel.app/" target="_blank">
@@ -28,7 +29,7 @@ const Projects = () => {
             />
           </a>
           <p>
-            This app is a video marketing agency.
+            This App is a Video Marketing Agency.
             <br />
             <i>(React, Tailwind CSS)</i>
           </p>
@@ -45,7 +46,7 @@ const Projects = () => {
           </a>
 
           <p>
-            This app manages tickets for web development.
+            This App Manages Tickets for Web Development.
             <br />
             <i>(React, Tailwind CSS)</i>
           </p>
@@ -71,19 +72,36 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* <div id="neckBackWordpress">
-          <p>Chiropractic Office</p>
-          <img
-            className="rounded-lg border-white border-2 w-5/6 mx-auto m-4"
-            src={neckBackWordpress}
-            alt="Neck and Back Pain Relief project"
-          />
+        <div>
+          <p className="font-bold">Big Run Wolf Ranch</p>
+          <a href="https://bigrunwolfranch.org/" target="_blank">
+            <img
+              className="rounded-lg border-white border-2 w-5/6 mx-auto m-4"
+              src={brwr}
+              alt=""
+            />
+          </a>
           <p>
-            Neck and Back Pain Relief
+            Wildlife Ranch with Events and Animal Education
             <br />
-            <i>(Wordpress, Elemetor)</i>
+            <i>(WordPress, Elementor)</i>
           </p>
-        </div> */}
+        </div>
+        <div>
+          <p className="font-bold">Matty Maha Coffee</p>
+          <a href="https://mattymahacoffee.com/" target="_blank">
+            <img
+              className="rounded-lg border-white border-2 w-5/6 mx-auto m-4"
+              src={mm}
+              alt=""
+            />
+          </a>
+          <p>
+            Coffee Bean Ecommerce Site
+            <br />
+            <i>(WordPress, Elementor)</i>
+          </p>
+        </div>
 
         <div id="whale">
           <p className="font-bold">Human to Whale Speech</p>
@@ -98,7 +116,7 @@ const Projects = () => {
             />
           </a>
           <p>
-            This app will translate English into Whale Speech.
+            This App Will Translate English into Whale Speech.
             <br />
             <i>(Javascript)</i>
           </p>
@@ -117,7 +135,7 @@ const Projects = () => {
             />
           </a>
           <p>
-            This will calculate if you need more sleep each week.
+            Built to Calculate if You Need More Sleep.
             <br />
             <i>(Javascript)</i>
           </p>
@@ -133,7 +151,7 @@ const Projects = () => {
             />
           </a>
           <p>
-            This app generates a random RGB color.
+            This App Generates a Random RGB Color.
             <br />
             <i>(React)</i>
           </p>
