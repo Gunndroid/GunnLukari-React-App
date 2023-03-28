@@ -19,7 +19,7 @@ function Skills() {
           Skills
         </span>
       </h3>
-      <div className="grid grid-cols-3 gap-8 md:grid-cols-12 md:gap-4 mx-auto px-14 m-20">
+      <div className="grid grid-cols-3 gap-8 md:grid-cols-12 md:gap-4 mx-auto  my-20">
         <img
           className="w-16 mx-auto"
           src={vscodeIcon}
