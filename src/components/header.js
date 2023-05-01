@@ -10,7 +10,7 @@ import Resume from "./resume";
 
 const Header = () => (
   <>
-    <nav className="h-fit text-white">
+    <nav className="h-fit text-white bg-stone-700">
       <div>
         <div className="grid md:grid-cols-5 font-bold text-white text-center md:pr-4 p-6 gap-4">
           <Link

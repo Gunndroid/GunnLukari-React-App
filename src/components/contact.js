@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <main id="">
       <div className="">
-        <p className="text-white text-xl w-3/4 p-20 mx-auto">
+        <p className="text-black text-xl w-3/4 p-20 mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           diam ante, ultrices placerat magna at, iaculis congue erat. Vestibulum
           tincidunt nec libero sed convallis. Sed sapien urna, hendrerit a
@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="text-center p-10">
           <button
             onClick={() => (window.location = "mailto:@gmail.com")}
-            className="rounded-lg bg-black text-white px-8 py-3 border-white border-2"
+            className="rounded-lg bg-stone-700 text-black px-8 py-3 border-white border-2"
           >
             Contact Us
           </button>

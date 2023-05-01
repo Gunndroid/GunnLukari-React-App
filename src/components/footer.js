@@ -2,7 +2,7 @@ import { Link, Route, Routes } from "react-router-dom";
 
 const Footer = () => (
   <>
-    <footer className="text-center h-fit grid items-center bg-black">
+    <footer className="text-center h-fit grid items-center bg-stone-700">
       {/* <Link to="/contact">Contact</Link> */}
 
       {/* <i>"quote"</i> */}

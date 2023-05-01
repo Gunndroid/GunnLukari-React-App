@@ -4,7 +4,7 @@ import "../index.css";
 const Services = () => {
   return (
     <main className="">
-      <table className="border border-white text-white text-center text-xl mx-auto m-36">
+      <table className="border border-white text-black text-center text-xl mx-auto m-36">
         <tbody>
           <tr>
             <td className="px-10 py-2 border border-white">
