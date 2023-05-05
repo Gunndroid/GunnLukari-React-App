@@ -5,7 +5,7 @@ import puffwizz from "../media/img/puffwizz.png";
 import whale from "../media/img/whale.png";
 import sleep from "../media/img/sleep.png";
 import random_color from "../media/img/random_color.png";
-import f1 from "../media/img/f1TeamDarkRed.jpg";
+import f1 from "../media/img/f1cuts.png";
 import brwr from "../media/img/brwr.png";
 import mm from "../media/img/mm.png";
 import ars from "../media/img/ARS.png";
@@ -52,6 +52,22 @@ const Projects = () => {
           </p>
         </div>
 
+        <div id="puffwizz">
+          <p className="font-bold">PuffWizz NFT</p>
+          <a href="https://puffwizz-nft.vercel.app/" target="_blank">
+            <img
+              className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
+              src={puffwizz}
+              alt="Puffwizz NFT project"
+            />
+          </a>
+          <p>
+            My Puffwizz NFT project.
+            <br />
+            <i>(React, Solidity)</i>
+          </p>
+        </div>
+
         <div id="randomColor">
           <p className="font-bold">Command Center</p>
           <a href="https://cmdcntr.io/" target="_blank">
@@ -66,26 +82,6 @@ const Projects = () => {
             This App Manages Tickets for Web Development.
             <br />
             <i>(React, Tailwind CSS)</i>
-          </p>
-        </div>
-
-        <div id="puffwizz">
-          <p className="font-bold">PuffWizz NFT</p>
-          <a
-            style={{ pointerEvents: "none" }}
-            href="https://gunndroid.github.io/puffwizz/"
-            target="_blank"
-          >
-            <img
-              className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
-              src={puffwizz}
-              alt="Puffwizz NFT project"
-            />
-          </a>
-          <p>
-            My Puffwizz NFT project.
-            <br />
-            <i>(React, Solidity)</i>
           </p>
         </div>
 
