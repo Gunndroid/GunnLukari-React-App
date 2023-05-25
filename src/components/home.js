@@ -11,27 +11,28 @@ const Home = () => (
     </p>
     <div className="grid md:grid-cols-2">
       <p className="text-black text-xl md:w-full mx-auto px-12 py-6 md:px-20 text-justify md:text-left order-2 md:order-1">
-        Gunnar is a dedicated full-stack developer based in the United States,
-        with a passion for programming ignited by an early interest in Smart
-        Contracts. He excels in frontend technologies like HTML, CSS, Tailwind,
-        JavaScript, and React, creating visually appealing and responsive user
-        interfaces. In backend development, Gunnar is proficient with tools like
-        Git and WordPress, ensuring robust and well-integrated functionality for
-        his projects.
+        Gunnar, a dedicated U.S.-based full-stack developer, has a programming
+        passion sparked by early interest in Smart Contracts. He excels in
+        frontend technologies including HTML, CSS, Tailwind, JavaScript, React,
+        Next.js, and WordPress, crafting visually stunning, responsive user
+        interfaces.
         <br />
         <br />
-        Committed to staying current with the ever-changing tech landscape,
-        Gunnar actively engages in ongoing learning by completing a variety of
-        online courses. This dedication to continuous growth keeps him at the
-        forefront of emerging trends and best practices in both frontend and
-        backend development.
+        In backend development, Gunnar's proficiency extends to tools like Git,
+        Express.js, and MongoDB. This expertise allows him to ensure robust and
+        seamless functionality across his projects.
         <br />
         <br />
-        Gunnar takes pride in contributing to the programming community and is
-        eager to make a positive impact within the industry. He approaches each
-        new challenge with enthusiasm and a problem-solving mindset, delivering
-        innovative solutions and top-notch programming expertise to every
-        project he undertakes.
+        Gunnar is committed to lifelong learning, keeping pace with the
+        fast-evolving tech landscape through a variety of online courses. His
+        continuous growth ensures he stays on top of emerging trends and best
+        practices in both frontend and backend development.
+        <br />
+        <br />
+        A proud contributor to the programming community, Gunnar is keen on
+        making a positive industry impact. He tackles each new challenge with
+        gusto and a problem-solving mindset, consistently delivering innovation
+        and top-quality programming expertise in all his projects.
         <br />
         <br />
       </p>

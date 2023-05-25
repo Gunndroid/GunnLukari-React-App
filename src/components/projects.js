@@ -3,24 +3,70 @@ import React from "react";
 import commandcenter from "../media/img/commandcenter.png";
 import puffwizz from "../media/img/puffwizz.png";
 import whale from "../media/img/whale.png";
-import sleep from "../media/img/sleep.png";
+// import sleep from "../media/img/sleep.png";
 import random_color from "../media/img/random_color.png";
 import f1 from "../media/img/f1cuts.png";
 import brwr from "../media/img/brwr.png";
-import mm from "../media/img/mm.png";
+import lbk from "../media/img/lbk.png";
 import ars from "../media/img/ARS.png";
+import swm from "../media/img/sport.png";
 
 const Projects = () => {
   return (
     <section id="projects-box">
       <h3 className="text-white text-2xl text-center font-bold m-5 ">
-        <span className="px-10 py-2 bg-stone-700 rounded-md">Projects</span>
+        <span className="px-10 py-2 bg-stone-700 rounded-md uppercase">
+          Portfolio
+        </span>
       </h3>
 
-      <div className="grid md:grid-cols-3 grid-rows-3 gap-14 text-black text-center text-lg m-14">
+      <div className="grid md:grid-cols-3 grid-rows-3 gap-14 text-black text-center text-lg m-14 mb-24">
+        <div>
+          <p className="font-bold">Lil Bird Kitchens</p>
+          <a
+            href="https://stg-lilbirdkitchens-staging.kinsta.cloud/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
+              src={lbk}
+              alt=""
+            />
+          </a>
+          <p>
+            Vegetable Mixes Ecommerce Site
+            <br />
+            <i>(WordPress, Elementor)</i>
+          </p>
+        </div>
+
+        <div id="sleep">
+          <p className="font-bold">Sport With Me</p>
+          <a
+            href="https://sportwithme.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
+              src={swm}
+              alt="Sport With Me"
+            />
+          </a>
+          <p>
+            A Sports App Connecting Pupils and Coaches <br />
+            <i>(Next.js, Express.js)</i>
+          </p>
+        </div>
+
         <div>
           <p className="font-bold">F1 Cuts</p>
-          <a href="https://f1-cuts.vercel.app/" target="_blank">
+          <a
+            href="https://f1-cuts.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
               src={f1}
@@ -38,6 +84,7 @@ const Projects = () => {
           <a
             href="https://stg-americanrfidsolutionscom-staging.kinsta.cloud/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
@@ -54,7 +101,11 @@ const Projects = () => {
 
         <div id="puffwizz">
           <p className="font-bold">PuffWizz NFT</p>
-          <a href="https://puffwizz-nft.vercel.app/" target="_blank">
+          <a
+            href="https://puffwizz-nft.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
               src={puffwizz}
@@ -70,7 +121,7 @@ const Projects = () => {
 
         <div id="randomColor">
           <p className="font-bold">Command Center</p>
-          <a href="https://cmdcntr.io/" target="_blank">
+          <a href="https://cmdcntr.io/" target="_blank" rel="noreferrer">
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
               src={commandcenter}
@@ -87,7 +138,11 @@ const Projects = () => {
 
         <div>
           <p className="font-bold">Big Run Wolf Ranch</p>
-          <a href="https://bigrunwolfranch.org/" target="_blank">
+          <a
+            href="https://bigrunwolfranch.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
               src={brwr}
@@ -100,27 +155,13 @@ const Projects = () => {
             <i>(WordPress, Elementor)</i>
           </p>
         </div>
-        <div>
-          <p className="font-bold">Matty Maha Coffee</p>
-          <a href="https://mattymahacoffee.com/" target="_blank">
-            <img
-              className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
-              src={mm}
-              alt=""
-            />
-          </a>
-          <p>
-            Coffee Bean Ecommerce Site
-            <br />
-            <i>(WordPress, Elementor)</i>
-          </p>
-        </div>
 
         <div id="whale">
           <p className="font-bold">Human to Whale Speech</p>
           <a
             href="https://gunndroid.github.io/Human-to-Whale-Talk/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
@@ -135,11 +176,12 @@ const Projects = () => {
           </p>
         </div>
 
-        <div id="sleep">
+        {/* <div id="sleep">
           <p className="font-bold">Sleep Debt Calculator</p>
           <a
             href="https://gunndroid.github.io/sleepDebtCalculator/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
@@ -152,11 +194,15 @@ const Projects = () => {
             <br />
             <i>(Javascript)</i>
           </p>
-        </div>
+        </div> */}
 
         <div id="randomColor">
           <p className="font-bold">Color Randomizer</p>
-          <a href="https://gunndroid.github.io/random_color/" target="_blank">
+          <a
+            href="https://gunndroid.github.io/random_color/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="rounded-md shadow-gray-500 border-white shadow-md border-2 w-5/6 mx-auto m-4"
               src={random_color}

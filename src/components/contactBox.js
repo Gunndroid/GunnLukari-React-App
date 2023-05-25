@@ -1,6 +1,6 @@
 import React from "react";
 import portrait from "../media/img/gunnLukariAI.JPG";
-import resume from "../media/GunnarCurryResume3.pdf";
+// import resume from "../media/GunnarCurryResume3.pdf";
 
 function ContactBox() {
   return (
@@ -18,7 +18,7 @@ function ContactBox() {
               id="resume"
               className="links"
               href={resume}
-              target="_blank"
+              target="_blank" rel="noreferrer"
               rel="noopener noreferrer"
             >
               resume
@@ -29,7 +29,7 @@ function ContactBox() {
               id="github"
               className="links"
               href="https://github.com/Gunndroid?tab=repositories"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               github
             </a>

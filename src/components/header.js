@@ -4,8 +4,8 @@ import About from "./about";
 import Services from "./services";
 import NotFound from "./notfound";
 import Contact from "./contact";
-import logo from "../media/img/gunndroidLogo3.png";
-import resume from "../media/GunnarCurryResume3.pdf";
+// import logo from "../media/img/gunndroidLogo3.png";
+// import resume from "../media/GunnarCurryResume3.pdf";
 import Resume from "./resume";
 
 const Header = () => (
@@ -28,6 +28,7 @@ const Header = () => (
           <Link
             to="https://github.com/Gunndroid"
             target="_blank"
+            rel="noreferrer"
             className="hover:text-blue-400 w-fit mx-auto"
           >
             GitHub
