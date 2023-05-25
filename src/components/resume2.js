@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import resume from "../media/GunnarCurryResume3.pdf";
 
-
 function Resume2() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);

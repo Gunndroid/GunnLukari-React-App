@@ -1,4 +1,4 @@
-import resume from "../media/GunnarCurryResumeMar29.pdf";
+import resume from "../media/GunnarCurryResumeMay25.pdf";
 
 function Resume() {
   return (
